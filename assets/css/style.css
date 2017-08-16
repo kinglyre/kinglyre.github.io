@@ -1,0 +1,347 @@
+/* --- Reset and Body Container Styles --- */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#landingVol2 {
+  background-color: rgba(237, 247, 247, 1);
+  display: none;
+}
+#landingVol1, #pubDetailPage1, #pubDetailPage2, #about {
+  display: none;
+}
+
+.landing1-textUnderlay {
+  width: 90%;
+  height: auto;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: -1000;
+}
+
+.landing2-lineBG {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  z-index: -1000;
+}
+
+footer {
+  background-color: lightGrey !important;
+}
+
+/* --- End of Reset and Body Container Styles --- */
+
+/* --- Beginning of Navigation Styles --- */
+nav {
+  height: 190px !important;
+  background-color: #fff;
+  padding-left: 50px;
+  border-bottom: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+nav ul li:last-child {
+  margin-right: 30px;
+}
+
+.navbar-fixed {
+  height: 190px;
+}
+
+.fixed-action-btn.horizontal ul li {
+  margin: 0 !important;
+  float: none;
+}
+
+h1 a {
+  font-size: 50px !important;
+  color: #d3d3d3 !important;
+}
+
+.topNav li {
+  transition: none !important;
+  width: auto;
+  height: 20px;
+  margin: 0;
+  display: block;
+}
+
+.topNav li a {
+  color: rgba(68, 200, 245, 1);
+  width: auto;
+  height: 20px;
+}
+.topNav li a:hover {
+  color: rgba(0, 114, 188, 1);
+}
+/* --- End of Navigation Styles --- */
+
+/* --- Beginning of Fixed Secondary Navigation Styles --- */
+.pagination {
+  position: fixed;
+  bottom: 100px;
+  left: 50px;
+}
+
+.pagination li a {
+  font-size: .6em;
+}
+/* --- End of Fixed Secondary Navigation Styles --- */
+
+/* --- Beginning of Landing Page 1 Styles - Vol 1 Issue 1 --- */
+#landing1-p1 {
+  padding: 40px 0px 0px 50px;
+}
+
+#landing1-p2 {
+  padding: 0 50px 0px 0px;
+}
+
+#landing1-p3 {
+  margin-bottom: 85px;
+  padding: 0 0px 25px 50px;
+}
+
+
+/* --- Landing Container Images - Zoom on Hover Effect --- */
+.landingItem {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.landingItem img {
+  width: auto;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.landingItem img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* --- End of Container Styles  - Landing 1 --- */
+
+/* --- Beginning of Landing Page 2 Styles - Vol 1 Issue 2 --- */
+#landing2-p1 {
+  padding: 40px 0px 0px 50px;
+}
+
+#landing2-p2 {
+  padding: 40px 0px 0px 50px;
+}
+
+#landing2-p3 {
+  margin-bottom: 80px;
+  padding: 0 0px 25px 50px;
+}
+/* --- End of Container Styles  - Landing 2 --- */
+
+/* --- Beginning of Detail Page - Volume 1 Issue 2 --- */
+
+.detailImage-margin {
+  margin-bottom: 175px;
+}
+
+.detailItemSVG {
+  margin: 15px 0 0 15px;
+}
+
+.detailItemType {
+  font-family: roboto-italic;
+  color: rgba(0, 113, 188, 1);
+}
+
+.publicationCopyContainer {
+  width: auto;
+  height: 211px;
+  margin-top: 35px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.publicationCopyContainer p {
+  font-family: roboto-light;
+  color: rgba(170,171,170,1);
+}
+
+.addToCartBtn {
+  margin-top: 50px;
+}
+
+.addToCartBtn h6 {
+  color: rgba(0, 113, 188, 1);
+  margin-bottom: 15px;
+}
+
+.carouselImg {
+  padding-left: 50px;
+  margin-bottom: 200px;
+}
+
+.pubDetailPage2, .pubDetailPage1 {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+/* --- Beginning of About Page Styles ---*/
+
+.about {
+  margin-top: 150px;
+  margin-bottom: 350px;
+}
+
+.aboutContainer {
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+.aboutContainer p {
+  padding-left: 75px;
+}
+/* --- End of About Page Styles ---*/
+
+/* --- Beginning of Archive Page Styles --- */
+
+.archive {
+  margin-top: 150px;
+  margin-bottom: 450px;
+}
+
+.archive .section li {
+  padding-left: 65px;
+}
+
+.archive .section li a:hover{
+  color: rgba(0, 114, 188, 1);
+  text-decoration: underline;
+}
+
+/* --- End of Archive Page Styles --- */
+
+/* --- Beginning of Footer Styles --- */
+
+/* --- Beginning of Slide.js Plugin Style for Detail Page ---*/
+
+.slick-prev, .slick-next {
+  height: 100% !important;
+}
+
+.slick-dots li button:before {
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+/* --- Ending of Slide.js Plugin Style for Detail Page ---*/
+
+/* --- Typography Styles --- */
+.smallText-horizontal {
+  font-size: 10px;
+  color: #d3d3d3;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  bottom: 300px;
+  position: fixed;
+}
+
+.smallText {
+  font-family: roboto-thin;
+  font-size: 13px;
+  color: #d3d3d3;
+}
+
+.text-muted {
+  color: rgba(170,171,170,1);
+}
+
+a#hoverable:hover {
+  text-decoration: underline;
+}
+
+.type {
+  font-family: roboto-italic;
+  font-size: 12px;
+  color: #d3d3d3;
+}
+
+.definition {
+  font-size: 12px;
+}
+/* --- End of Typography Style ---*/
+
+/* --- Social Media Buttons --- */
+.socialMediaBtn {
+  margin-top: -12px;
+}
+
+/* --- Next and Previous Buttons ---*/
+.prevBtn {
+  position: fixed;
+  top: 50%;
+  padding-left: 25px;
+}
+
+.nextBtn {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  padding-right: 25px;
+}
+
+.prevBtn a, .nextBtn a {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.prevBtn a  i, .nextBtn a i {
+  margin: 18px;
+}
+
+.prevBtn a:hover, .nextBtn a:hover {
+  color: darkBlue;
+}
+
+/* --- Media Queries --- */
+
+@media only screen and (max-width: 1024px) {
+  .landing1-textUnderlay {
+    top: 250px;
+    left: 0;
+    width: 300%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .detailImage-margin {
+      margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #landing1-p1, #landing1-p2, #landing1-p3 {
+    padding: 0;
+  }
+}
