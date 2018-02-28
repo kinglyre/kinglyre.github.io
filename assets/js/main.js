@@ -3,6 +3,7 @@
 $(document).ready(function() {
     $('#landingVol1').fadeIn(1500);
     $('#landingVol2').fadeIn(1500);
+    $('#landing-Iss2Vol1').fadeIn(1500);
     $('#pubDetailPage1').fadeIn(1500);
     $('#pubDetailPage2').fadeIn(1500);
     $('#about').fadeIn(1500);

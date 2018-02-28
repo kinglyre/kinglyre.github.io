@@ -17,6 +17,10 @@ main {
   flex: 1 0 auto;
 }
 
+#landing-Iss2Vol1 {
+  background-color: rgba(237, 247, 247, 1);
+  display: none;
+}
 #landingVol2 {
   background-color: rgba(237, 247, 247, 1);
   display: none;
@@ -36,6 +40,15 @@ main {
 
 .landing2-lineBG {
   width: 100%;
+  height: auto;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  z-index: -1000;
+}
+
+.landing3-promiseProcess {
+  width: 80%;
   height: auto;
   position: fixed;
   top: 75px;
@@ -157,6 +170,28 @@ h1 a {
 }
 /* --- End of Container Styles  - Landing 2 --- */
 
+/* --- Beginning of Landing Page 3 Styles - Vol 2 Issue 1 --- */
+.landing3 {
+  height: 1000px;
+}
+
+#landing3-p1 {
+  height: auto;
+  width: 900px;
+  padding: 40px 0px 0px 50px;
+  margin-top: 50px;
+}
+
+#landing3-p2 {
+  height: auto;
+  width: 500px;
+  padding: 40px 0px 0px 50px;
+  margin-top: 15px;
+}
+
+
+/* --- End of Container Styles  - Landing 2 --- */
+
 /* --- Beginning of Detail Page - Volume 1 Issue 2 --- */
 
 .detailImage-margin {
@@ -199,7 +234,7 @@ h1 a {
   margin-bottom: 200px;
 }
 
-.pubDetailPage2, .pubDetailPage1 {
+.pubDetailPage3, .pubDetailPage2, .pubDetailPage1 {
   margin-top: 120px;
   margin-bottom: 100px;
 }
